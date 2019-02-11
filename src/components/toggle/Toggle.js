@@ -4,7 +4,7 @@ import './Toggle.css';
 const Toggle = (props) => (
   <div id="main-toggle">
     <div id="toggle-img">
-      <img src={props.source}/>
+      <img src={props.source} alt="img_toggle" />
     </div>
     <div id="toggle">
       <label className="switch">
