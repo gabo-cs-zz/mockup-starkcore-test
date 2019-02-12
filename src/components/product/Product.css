@@ -123,3 +123,69 @@
   margin-left: .6em;
 }
 
+@media screen and (max-width: 1270px) {
+  
+  .container-wrap {
+    margin: 0;
+  }
+  
+  #address {
+    font-size: 75%;
+    padding-left: 0;
+  }
+  
+  #date {
+    font-size: 75%;
+    margin: 0 1em;
+  }
+  
+  #arrow-1 {
+    display: none;
+  }
+  
+  #arrow-2 {
+    display: inline;
+    font-size: 90%;
+  }
+  
+  #info {
+    left: 1em;
+    justify-content: space-between;
+  }
+  
+  #price {
+    margin: 0;
+  }
+  
+  #amount {
+    margin: 0;
+    height: 2em;
+  }
+  
+  #number {
+    margin-top: 1em;
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+ #info i {
+   display: none;
+  }
+  
+  #amount {
+   display: none;
+  }
+  
+  #arrow-2 {
+    display: none;
+  }
+  
+  #address {
+    width: 25%;
+  }
+  
+  #address div:first-child {
+    margin-bottom: 1px;
+  }
+}

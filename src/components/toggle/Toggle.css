@@ -79,3 +79,30 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 80%;
 }
+
+@media screen and (max-width: 1270px) {
+  #toggle-img img {
+    width: 40%;
+  }
+  
+  #toggle {
+    margin: 0;
+    padding: .2em;
+  }
+  
+  #main-toggle {
+    margin: 1em 10px;
+  }
+  
+  .switch {
+    height: 30px;
+    width: 60px;
+  }
+  
+  .slider:before {
+    height: 30px;
+    width: 30px;
+    top: -1px;
+    left: -1px;
+  }
+}
