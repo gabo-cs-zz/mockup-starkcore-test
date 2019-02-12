@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/header/Header'
 import Aside from './components/aside/Aside'
+import Home from './components/home/Home'
 
 import './App.css';
 
@@ -35,6 +36,8 @@ class App extends Component {
           <aside>
             <Aside />
           </aside>
+          <Home />
+          <div className="clear"></div>
         </div>
       );
     }
