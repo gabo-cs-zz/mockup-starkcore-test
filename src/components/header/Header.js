@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { withRouter } from 'react-router';
-
+import { Link, withRouter } from 'react-router-dom';
 
 import Checkbox from './../checkbox/Checkbox'
 
@@ -16,9 +14,9 @@ class Header extends Component {
         <nav>
           <Link id="home" to="/"><span>Home</span></Link>
           <Link id="messages" to="/messages"><span>Messages</span></Link>
-          <a id="wishlist" href="/wishlist"><span>Wishlist</span></a>
-          <a id="settings" href="/settings"><span>Settings</span></a>
-          <a id="myaccount" href="/myaccount"><span>My Account</span></a>
+          <Link id="wishlist" to="/wishlist"><span>Wishlist</span></Link>
+          <Link id="settings" to="/settings"><span>Settings</span></Link>
+          <Link id="myaccount" to="/myaccount"><span>My Account</span></Link>
           <div id="search-bar">
             <div id="check-search">
               { current_page === '/' && <Checkbox /> }

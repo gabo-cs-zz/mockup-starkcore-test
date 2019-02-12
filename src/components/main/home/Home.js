@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Product from './../product/Product'
-import Floating from './../floating/Floating'
+import Product from './../../product/Product'
+import Floating from './../../floating/Floating'
 
 class Home extends Component {
   render(){
@@ -12,7 +12,6 @@ class Home extends Component {
         <Product />
         <Floating />
       </div>
-      
     );
   }
 }

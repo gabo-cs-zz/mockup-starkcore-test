@@ -3,8 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/header/Header'
 import Aside from './components/aside/Aside'
-import Home from './components/home/Home'
-import Message from './components/message/Message'
+import Home from './components/main/home/Home'
+import Message from './components/main/message/Message'
+import Wishlist from './components/main/wishlist/Wishlist'
+import Settings from './components/main/settings/Settings'
+import MyAccount from './components/main/myaccount/MyAccount'
 import NoMatch from './components/nomatch/NoMatch'
 
 import './App.css';
@@ -43,6 +46,9 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/messages' component={Message} />
+              <Route exact path='/wishlist' component={Wishlist} />
+              <Route exact path='/settings' component={Settings} />
+              <Route exact path='/myaccount' component={MyAccount} />
               <Route component={NoMatch} />
             </Switch>
             <div className="clear"></div>

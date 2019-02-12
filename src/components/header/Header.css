@@ -52,6 +52,10 @@ nav a {
   background-size: 1.7em;
 }
 
+.active {
+  background-color: black;
+}
+
 #messages:hover {
   background: url(./imgs/msg_white.png);
   background-position: center;
