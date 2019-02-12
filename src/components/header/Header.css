@@ -119,9 +119,15 @@ nav a span {
   padding-top: 3.8em;
 }
 
+#search-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 #check-search {
   float: left;
-  margin: 3em 5% 0 5%;
+  margin: 3em 5% 0px 5.22%;
 }
 
 #search-bar input {
