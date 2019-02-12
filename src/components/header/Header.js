@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+
+import Checkbox from './../checkbox/Checkbox'
 
 import './Header.css';
 
@@ -8,12 +11,13 @@ class Header extends Component {
       <React.Fragment>
         <div id="main-logo"></div>
         <nav>
-          <a id="home" href="/homes"><span>Home</span></a>
-          <a id="messages" href="/messages"><span>Messages</span></a>
+          <Link id="home" to="/"><span>Home</span></Link>
+          <Link id="messages" to="/messages"><span>Messages</span></Link>
           <a id="wishlist" href="/wishlist"><span>Wishlist</span></a>
           <a id="settings" href="/settings"><span>Settings</span></a>
           <a id="myaccount" href="/myaccount"><span>My Account</span></a>
           <div id="search-bar">
+            <div id="check-search"><Checkbox /></div>
             <input type="text" placeholder="Search"/>
           </div>
         </nav>

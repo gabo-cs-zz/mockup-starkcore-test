@@ -2,7 +2,7 @@ nav {
   height: 3.75em;
   background-color: #fff;
   width: 75%;
-  margin: 3em 20%;
+  margin: 3em 20% 0 20%;
 }
 
 #main-logo {
@@ -17,12 +17,7 @@ nav {
   margin-left: 4em;
 }
 
-img {
-  height: 80%;
-  width: 50%;
-}
-
-a {
+nav a {
   text-align: center;
   display: inline-block;
   text-decoration: none;
@@ -118,10 +113,15 @@ a {
   overflow: hidden;
 }
 
-nav span {
+nav a span {
   font-size: 70%;
   display: inline-block;
   padding-top: 3.8em;
+}
+
+#check-search {
+  float: left;
+  margin: 3em 5% 0 5%;
 }
 
 #search-bar input {
@@ -146,7 +146,7 @@ nav span {
     padding: 0;
   }
   
-  #main-logo, a span {
+  #main-logo, nav a span {
     display: none;
   }
   
@@ -161,6 +161,5 @@ nav span {
     background-position: 135px 13px; 
     background-repeat: no-repeat;
   }
-
   
 }
