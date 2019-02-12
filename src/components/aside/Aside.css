@@ -6,6 +6,8 @@
 }
 
 #top-text {
+  display: block;
+  margin: auto;
   width: 160px;
   padding: 0;
   color: #6d6d6d;
@@ -20,6 +22,8 @@
 }
 
 #bottom-text {
+  display: block;
+  margin: auto;
   width: 160px;
   padding: 0;
   color: #6d6d6d;

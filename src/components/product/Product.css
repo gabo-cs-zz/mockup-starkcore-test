@@ -105,10 +105,12 @@
   font-size: 50%;
   text-align: center;
   right: .9em;
-  margin-top: .1em;
+  margin-top: 1.8em;
+  display: block;
 }
 
 #dots {
+  cursor: pointer;
   margin-top: .2em;
   width: 1em;
   height: 30px;

@@ -4,7 +4,7 @@ import './Checkbox.css';
 
 const Checkbox = () => (
   <label className="container">
-    <input type="checkbox" checked="checked" />
+    <input type="checkbox" />
     <span className="checkmark"></span>
   </label>
 );

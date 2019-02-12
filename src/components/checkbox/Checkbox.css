@@ -19,11 +19,12 @@
   left: 0;
   height: 35px;
   width: 35px;
-  background-color: #eee;
+  background-color: #fff;
+  border: 1px solid rgba(136, 136, 136, .4);
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #193948;
 }
 
 .container input:checked ~ .checkmark {
